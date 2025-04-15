@@ -1,0 +1,38 @@
+#header {
+  align-items: center;
+  background-color: var(--surface-color);
+  padding-block: 1.25rem;
+  justify-content: space-between;
+
+  & nav {
+    padding-block: 0.25rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 5rem;
+
+    & .search-icon {
+      background-image: url(/assets/icons/MagnifyingGlass.svg);
+      background-repeat: no-repeat;
+      width: 2rem;
+      height: 2rem;
+    }
+
+    & .search-icon:hover {
+      background-image: url(/assets/icons/MagnifyingGlass-hover.svg);
+    }
+
+    & img {
+      width: 2.5rem;
+    }
+
+    & a:hover {
+      color: var(--brand-color);
+    }
+  }
+
+  @media (width >= 80em) {
+    & nav {
+      width: 20.3125rem;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.container {
+  padding-inline: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media (width >= 80em) {
+  .desktop-only {
+    display: initial;
+  }
+}
