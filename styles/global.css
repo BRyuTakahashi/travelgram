@@ -9,7 +9,8 @@
   --text-color-secondary: #6c6c6c;
 
   --font-family: "Poppins", sans-serif;
-  --h1: 700 2rem/1.25 var(--font-family);
+  --fs-xl: 1.5rem;
+
   --paragraph-md: 400 0.875rem/ 1.7 var(--font-family);
   --paragraph-sm: 400 0.75rem/1.7 var(--font-family);
 }
@@ -26,7 +27,10 @@ body {
 }
 
 h1 {
-  font: var(--h1);
+  font-family: var(--font-family);
+  font-weight: 700;
+  line-height: 1.25;
+  font-size: var(--fs-xl);
 }
 
 p {
@@ -39,4 +43,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+@media (width >= 80em) {
+  :root {
+    --fs-xl: 2rem;
+  }
 }
