@@ -10,6 +10,14 @@
   display: none;
 }
 
+.ai-center {
+  align-items: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
 @media (width >= 80em) {
   .desktop-only {
     display: initial;

@@ -31,14 +31,17 @@ h1 {
   font-weight: 700;
   line-height: 1.25;
   font-size: var(--fs-xl);
+  color: var(--text-color-primary);
 }
 
-p {
+p,
+a,
+span {
+  color: var(--text-color-secondary);
 }
 
 a {
   text-decoration: none;
-  color: var(--text-color-secondary);
 }
 
 a:hover {

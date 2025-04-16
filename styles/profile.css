@@ -1,5 +1,4 @@
 #profile {
-  align-items: center;
   background-color: var(--surface-color);
   padding: 2rem 2rem;
 
@@ -18,7 +17,6 @@
 
     & li {
       display: flex;
-      align-items: center;
       gap: 0.5rem;
     }
 

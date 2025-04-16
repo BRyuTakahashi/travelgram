@@ -1,0 +1,20 @@
+#footer {
+  text-align: center;
+  padding-block: 1rem;
+
+  & .links {
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+
+  @media (width >= 80em) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .links {
+      margin-top: 0;
+    }
+  }
+}
